@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>DOM2</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		</head>
+		<body>
+		<script>
+					  var age=Number(prompt("Enter the number"));
+       		   var sex=(prompt("Enter sex: M/F"));
+  if(sex == 'F') {
+			document.write("You will work only in urban areas");
+		}
+		
+		else if(sex == 'M') {
+			if((age >= 20) && (age < 40)) {
+				document.write("You may work anywhere");
+			}
+			else if((age >= 40) && (age < 60)) {
+				document.write("You will work only in urban areas");
+			}
+			
+		}
+		else {
+				document.write("ERROR");
+			}
+		</script>
+		</body>
+		</html>
